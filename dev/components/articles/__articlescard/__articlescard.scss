@@ -1,0 +1,46 @@
+.article-card{
+  border-radius: 7px;
+  padding:0 0 25px 0;
+  color: #1b1b1b;
+  background-color: $mainwhite;
+  box-shadow: 0px 7px 8px 0px rgba(0, 0, 0, 0.25);
+.article-card-img-box{
+  border-radius: 7px;
+  overflow: hidden;
+  height: 230px;
+  margin-bottom: 25px;
+}
+.article-img {
+  height: 100%;
+  width: auto;
+}
+.article-card-content-box{
+  padding: 0 17px 0 22px;
+}
+.article-card-title{
+ text-align: center;
+  font-family: $echo, sans-serif;
+  font-size: 18.05px;
+  color: #1b1b1b;
+  margin-bottom: 16px;
+}
+.article-card-text{
+  text-align: center;
+  font-size: 14.58px;
+  font-family: $museo100;
+  margin-bottom: 65px;
+  line-height: 18px;
+}
+  .article-card-footer{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+  .red-button{
+    margin: 0;
+    width: 110px;
+    height: 28px;
+    background-color: #dc0a0c;
+    font-size: 13.56px;
+  }
+}
