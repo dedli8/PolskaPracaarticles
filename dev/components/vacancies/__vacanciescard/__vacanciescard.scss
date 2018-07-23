@@ -1,0 +1,193 @@
+.vacancy-card{
+  box-shadow: 0px 7px 8px 0px rgba(0, 0, 0, 0.25);
+  background-color: $mainwhite;
+  border-radius: 9px;
+  margin-bottom: 3px;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  @include media($width-xs){
+    border-radius: 9px;
+    margin-bottom: 7px;
+    padding-top: 13px;
+    padding-bottom: 11px;
+  }
+  @include media($width-mid){
+    margin-bottom: 12px;
+    padding-top: 30px;
+    padding-bottom: 27px;
+  }
+  @include media($width-max){
+    background-color: #fafafa;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 0px;
+    margin-bottom: 3px;
+    padding: 25px 24px 12px 35px;
+    box-sizing: border-box;
+    //box-shadow: none;
+  }
+.vacancy-card-main{
+  padding: 0 16px 5px 16px;
+  border-bottom: 1px solid #dbdbdb;
+  @include media($width-xs){
+   padding: 0 26px 7px 26px;
+  }
+  @include media($width-mid){
+    padding: 0 49px 14px 49px;
+    border-width: 2px;
+  }
+  @include media($width-max){
+    padding:0;
+    border: 0;
+  }
+}
+.vacancy-name, .vacancy-company{
+  margin-bottom: 8px;
+  @include media($width-xs){
+    margin-bottom: 11px;
+  }
+  @include media($width-mid){
+    margin-bottom: 22px;
+  }
+  @include media($width-max){
+    margin-bottom: 0px;
+  }
+}
+  .vacancy-company{
+    @include media($width-max){
+      margin-bottom: 50px;
+    }
+  }
+  .employment-type{
+    @include media($width-max){
+      margin-bottom: 5px;
+    }
+  }
+.vacancy-name{
+color: $mainblack;
+  font-size: 13.9px;
+  font-family: $museo700;
+  @include media($width-xs){
+    font-size: 19.96px;
+  }
+  @include media($width-mid){
+     font-size: 41px;
+  }
+  @include media($width-max){
+    font-size: 25px;
+    margin-bottom: 14px;
+  }
+}
+.vacancy-company, .employment-type, .vacancy-description{
+  font-size: 10.17px;
+  @include media($width-xs){
+     font-size: 14.4px;
+  }
+  @include media($width-mid){
+     font-size: 29.8px;
+  }
+  @include media($width-max){
+     font-size: 16.67px;
+  }
+}
+.vacancy-company, .employment-type{
+  font-family: $museo100;
+  color: #828282;
+}
+.vacancy-description{
+  font-family: $museo300, sans-serif;
+color: $mainblack;
+  line-height: 20px;
+  margin-top: 1px;
+  @include media($width-xs){
+     line-height: 30px;
+  }
+  @include media($width-mid){
+     line-height: 60px;
+  margin-top: 5px;
+  }
+  @include media($width-max){
+     line-height: 32px;
+  margin-top: 0;
+  }
+}
+.vacancy-card-footer{
+  font-family: $museo300, sans-serif;
+  color: $mainblack;
+  font-size: 12.21px;
+  padding: 9px 16px 0 21px;
+  overflow: auto;
+  @include media($width-xs){
+    font-size: 17.52px;
+  padding: 13px 23px 2px 32px;
+  }
+  @include media($width-mid){
+    font-size: 36px;
+  padding: 25px 49px 0 61px;
+  }
+  @include media($width-max){
+    font-size: 16.67px;
+  padding: 0;
+    position: relative;
+    height: 36px;
+    top: -10px;
+    overflow: initial;
+  }
+}
+.vacancy-card-footer>*{
+  display: inline-block;
+  vertical-align: middle;
+}
+  .icon-city-term-box>*{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .icon-city-term-box{
+    padding-top: 9px;
+    @include media($width-mid){
+      padding-top: 23px;
+    }
+    @include media($width-max) {
+      padding-top: 0;
+      position: absolute;
+      top: -108px;
+    }
+  }
+  .red-button{
+    width: 117px;
+    height: 30px;
+    float: right;
+    font-size: 13.56px;
+    @include media($width-xs){
+      width: 168px;
+      height: 42px;
+      margin-left: 11%;
+      font-size: 19.47px;
+    }
+    @include media($width-mid){
+      width: 345px;
+      height: 84px;
+      font-size: 39.99px;
+    }
+    @include media($width-max){
+      width: 128px;
+      height: 36px;
+      margin-left: 0;
+      position: absolute;
+      right: 0;
+      font-size: 15.83px;
+    }
+  }
+.vacancy-city{
+  margin-right: 4px;
+  @include media($width-xs){
+    margin-right: 7px;
+  }
+  @include media($width-mid){
+    margin-right: 14px;
+  }
+  @include media($width-max){
+    margin-right: 4px;
+  }
+}
+}

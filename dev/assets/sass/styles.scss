@@ -1,0 +1,92 @@
+@import 'settings';
+@import 'fonts';
+@import 'mixins';
+@import 'reset';
+
+body{
+color: $mainwhite;
+  font-family: $echobold;
+}
+.container{
+  margin: 0 auto;
+  padding: 0 23px;
+  @include media($width-xs){
+    padding: 0 33px;
+  }
+  @include media($width-mid){
+    padding: 0 50px;
+  }
+  @include media($width-max){
+    padding: 0 115px;
+  }
+}
+
+@import "../../components/header/_header.scss";
+@import "../../components/navmenu/_navmenu.scss";
+@import "../../components/slider/_slider.scss";
+@import "../../components/banner/_banner.scss";
+@import "../../components/study/_study.scss";
+@import "../../components/forwhat/_forwhat.scss";
+@import "../../components/courses/_courses.scss";
+@import "../../components/footer/_footer.scss";
+@import "../../components/mainbanner/_mainbanner.scss";
+@import "../../components/mainservises/_mainservises.scss";
+@import "../../components/mainadvanteges/_mainadvanteges.scss";
+@import "../../components/mainattitude/_mainattitude.scss";
+@import "../../components/ratesbanner/_ratesbanner.scss";
+@import "../../components/ratespackage/_ratespackage.scss";
+@import "../../components/ratesppinfo/_ratesppinfo.scss";
+@import "../../components/regform/_regform.scss";
+@import "../../components/pagescount/pagescount.scss";
+@import "../../components/vacancies/_vacancies";
+@import "../../components/vacancies/_customselect";
+@import "../../components/vacancies/__vacanciessearch/_vacanciessearch";
+@import "../../components/vacancies/__vacanciescard/_vacanciescard";
+@import "../../components/vacancies/__vacanciesslider/_vacanciesslider";
+@import "../../components/vacancies/__vacanciescategoriesmenu/_vacanciescategoriesmenu";
+@import "../../components/articles/_articles";
+@import "../../components/articles/__articlesmenu/_articlesmenu";
+@import "../../components/articles/__articlescard/_articlescard";
+
+.header .vacancies-logo-text{
+  text-transform: none;
+  width: 125px;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  box-sizing: border-box;
+  color: #a0a0a0;
+  font-size: 12.45px;
+  border-radius: 10px;
+  font-family: "MuseoSansCyrl-100", sans-serif;
+  @include media($width-xs){
+    width: 215px;
+    font-size: 18px;
+  }
+  @include media($width-mid){
+    width: 586px;
+    font-size: 29.17px;
+  }
+}
+.turn-search-panel-button {
+  cursor: pointer;
+  background-image: url("/local/templates/polska_praca/img/searchsettingsicon.svg");
+  width: 19px;
+  height: 19px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  right: 80px;
+  top: 12px;
+  @include media($width-xs) {
+    right: 100px;
+    top: 20px;
+  }
+  @include media($width-mid) {
+    right: 150px;
+    top: 30px;
+  }
+  @include media($width-max) {
+
+  }
+}
