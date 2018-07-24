@@ -40,11 +40,11 @@ font-size: 39.58px;
     margin: 11px 0;
     border-radius: 7px;
     @include media($width-xs){
-      margin-bottom: 21px;
+      margin: 21px 0;
       border-radius: 12px;
     }
     @include media($width-mid){
-      margin: 37px 0;
+      margin: 38px 0;
       border-radius: 30px;
     }
     @include media($width-max){
@@ -55,5 +55,8 @@ font-size: 39.58px;
       box-shadow: none;
       background-color: transparent;
     }
+  }
+  .height-auto{
+    height: auto;
   }
 }
