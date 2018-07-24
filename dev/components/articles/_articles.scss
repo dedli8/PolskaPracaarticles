@@ -1,16 +1,44 @@
 .articles{
   background-image: url("img/mainbg.png");
   .container{
-    padding: 0 21px 0 21px;
+    padding: 0 21px;
+    @include media($width-xs){
+      padding: 0 33px;
+    }
+    @include media($width-mid){
+
+    }
+    @include media($width-max){
+
+    }
   }
   .articles-section-title{
     color: #dc0a0c;
     font-size: 24.15px;
     text-transform: uppercase;
     text-align: center;
-    padding: 14px 0 14px 0;
+    padding: 14px 0;
+    @include media($width-xs){
+      padding: 12px 0px 9px 0;
+      font-size: 34.56px;
+    }
+    @include media($width-mid){
+
+    }
+    @include media($width-max){
+
+    }
   }
   .page-count{
     margin: 11px 0;
+    @include media($width-xs){
+      margin-bottom: 21px;
+    }
+    @include media($width-mid){
+
+    }
+    @include media($width-max){
+
+    }
   }
 }
