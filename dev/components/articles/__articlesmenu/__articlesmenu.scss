@@ -6,8 +6,8 @@
   font-size: 0;
   position: relative;
   height: 37px;
-  overflow: hidden;
   margin-bottom: 15px;
+  font-size: 0;
   @include media($width-xs){
     padding: 0 20px 0 18px;
     border-radius: 14px;
@@ -18,10 +18,15 @@
     padding: 0 38px 0 38px;
     border-radius: 18px;
     margin-bottom: 42px;
-    height: 112px;
+    height: 110px;
   }
   @include media($width-max){
-
+    padding: 0 0px 0 30px;
+    border-radius: 10px;
+    height: 68px;
+    width: 96.7%;
+    margin: 0 auto;
+    margin-bottom: 20px;
   }
   .article-menu-arrow{
     color: $mainblack;
@@ -43,7 +48,7 @@
       font-size: 43.55px;
     }
     @include media($width-max){
-
+display: none;
     }
   }
   .article-menu-title{
@@ -61,7 +66,8 @@
       padding: 22px 32px 37px 0px;
     }
     @include media($width-max){
-
+font-size: 19.46px;
+      padding: 20px 30px 20px 0px;
     }
   }
   .article-menu-item{
@@ -89,7 +95,11 @@
       border-radius: 11px;
     }
     @include media($width-max){
-
+      padding: 26px 15px;
+      font-size: 16.92px;
+      margin-right: 1px;
+      margin-bottom: 0px;
+      border-radius: 8px;
     }
    &:last-child{
      margin-bottom: 0;

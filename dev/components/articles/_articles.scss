@@ -9,7 +9,9 @@
       padding: 0 50px;
     }
     @include media($width-max){
-
+      padding: 0;
+      max-width: 1094px;
+      overflow: hidden;
     }
   }
   .articles-section-title{
@@ -27,8 +29,12 @@
       font-size: 62.5px;
     }
     @include media($width-max){
+font-size: 39.58px;
+      padding: 27px 0px 10px 0;
 
     }
+  }
+  .articles-box{
   }
   .page-count{
     margin: 11px 0;
@@ -42,7 +48,12 @@
       border-radius: 30px;
     }
     @include media($width-max){
-
+      margin: 0;
+      border-radius: 12px;
+      text-align: center;
+      padding: 33px 0 43px 0;
+      box-shadow: none;
+      background-color: transparent;
     }
   }
 }
