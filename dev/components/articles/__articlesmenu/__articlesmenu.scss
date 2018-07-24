@@ -2,20 +2,20 @@
   overflow: hidden;
   box-shadow: 0px 1px 6.88px 1.12px rgba(0, 0, 0, 0.25);
   background-color: $mainwhite;
-  padding: 0 17px 0 11px;
+  padding: 0 15px 0 11px;
   border-radius: 10px;
   font-size: 0;
   position: relative;
   height: 37px;
   margin-bottom: 15px;
   @include media($width-xs){
-    padding: 0 20px 0 18px;
+    padding: 0 18px 0 18px;
     border-radius: 14px;
     margin-bottom: 18px;
     height: 52px;
   }
   @include media($width-mid){
-    padding: 0 38px 0 38px;
+    padding: 0 36px 0 38px;
     border-radius: 18px;
     margin-bottom: 42px;
     height: 110px;
@@ -28,7 +28,7 @@
     margin: 0 auto;
     margin-bottom: 20px;
   }
-  .article-menu-arrow{
+  .articles-menu-arrow{
     color: $mainblack;
     position: absolute;
     top: 13px;
@@ -36,6 +36,7 @@
     font-size: 14.36px;
     font-family: $museo700;
     font-weight: bold;
+    cursor: pointer;
     transform: rotate(90deg);
     @include media($width-xs){
       top: 18px;
@@ -51,7 +52,7 @@
 display: none;
     }
   }
-  .article-menu-title{
+  .articles-menu-title{
     font-size: 15.14px;
     font-family: $museo500, sans-serif;
     padding: 11px 5px 11px 3px;
@@ -70,7 +71,8 @@ font-size: 19.46px;
       padding: 20px 30px 20px 0px;
     }
   }
-  .article-menu-item{
+  .articles-menu-item{
+    cursor: pointer;
     font-size: 14.7px;
     font-family: $museo500, sans-serif;
     padding: 11px 8px 11px 8px;
@@ -80,6 +82,7 @@ font-size: 19.46px;
     margin-bottom: 2px;
     display: inline-block;
     border-radius: 4px;
+    cursor: pointer;
     @include media($width-xs){
       padding: 14px 12px 16px 12px;
       font-size: 20.83px;
@@ -105,7 +108,7 @@ font-size: 19.46px;
      margin-bottom: 0;
    }
   }
-  .article-menu-item-active{
+  .articles-menu-item-active{
     font-family: $museo700, sans-serif;
 color: $mainwhite;
     background-color: #dc0a0c;

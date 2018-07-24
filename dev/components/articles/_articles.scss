@@ -35,6 +35,9 @@ font-size: 39.58px;
     }
   }
   .articles-box{
+    @include media($width-max) {
+      padding: 0 2px;
+    }
   }
   .page-count{
     margin: 11px 0;
