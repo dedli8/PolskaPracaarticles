@@ -6,9 +6,11 @@
   box-shadow: 0px 7px 8px 0px rgba(0, 0, 0, 0.25);
   @include media($width-xs){
     padding-bottom: 16px;
+    border-radius: 12px;
   }
   @include media($width-mid){
-
+    padding-bottom: 39px;
+    border-radius: 30px;
   }
   @include media($width-max){
 
@@ -24,7 +26,9 @@
     margin-bottom: 21px;
   }
   @include media($width-mid){
-
+    height: 588px;
+    border-radius: 25px;
+    margin-bottom: 43px;
   }
   @include media($width-max){
 
@@ -40,7 +44,7 @@
     padding: 0 18px;
   }
   @include media($width-mid){
-
+    padding: 0 38px;
   }
   @include media($width-max){
 
@@ -57,7 +61,8 @@
     font-size: 21.47px;
   }
   @include media($width-mid){
-
+    margin-bottom: 21px;
+    font-size: 45.83px;
   }
   @include media($width-max){
 
@@ -75,7 +80,9 @@
     line-height: 26px;
   }
   @include media($width-mid){
-
+    margin-bottom: 147px;
+    font-size: 45.83px;
+    line-height: 55px;
   }
   @include media($width-max){
 
@@ -98,7 +105,9 @@
       font-size: 22.49px;
     }
     @include media($width-mid){
-
+      width: 395px;
+      height: 105px;
+      font-size: 48px;
     }
     @include media($width-max){
 
@@ -111,7 +120,7 @@
       font-size: 20px;
     }
     @include media($width-mid){
-
+      font-size: 42.69px;
     }
     @include media($width-max){
 

@@ -6,7 +6,7 @@
       padding: 0 33px;
     }
     @include media($width-mid){
-
+      padding: 0 50px;
     }
     @include media($width-max){
 
@@ -23,7 +23,8 @@
       font-size: 34.56px;
     }
     @include media($width-mid){
-
+      padding: 29px 0px 33px 0;
+      font-size: 62.5px;
     }
     @include media($width-max){
 
@@ -31,11 +32,14 @@
   }
   .page-count{
     margin: 11px 0;
+    border-radius: 7px;
     @include media($width-xs){
       margin-bottom: 21px;
+      border-radius: 12px;
     }
     @include media($width-mid){
-
+      margin: 37px 0;
+      border-radius: 30px;
     }
     @include media($width-max){
 
