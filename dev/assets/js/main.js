@@ -13,6 +13,7 @@ function changeLang(e) {
 langPanel.addEventListener('click', changeLang);
 // language script ends
 
+// articles menu scripts starts
 const articlesMenuArrow = document.querySelector(".articles-menu-arrow");
 const articlesMenu = document.querySelector(".articles-menu");
 const articlesMenuItem = document.querySelectorAll(".articles-menu-item");
@@ -34,3 +35,5 @@ articlesMenuArrow.addEventListener('click', function (e) {
 articlesMenu.addEventListener('click', function (e) {
     addClassActive(e.target);
 });
+
+// articles menu scripts ends
